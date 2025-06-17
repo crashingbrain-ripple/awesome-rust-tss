@@ -3,41 +3,29 @@ A curated list of distributed key generation and threshold signatures implementa
 
 
 ## DKG list
-* [torus-node (Torus)](https://github.com/torusresearch/torus-node): Torus's Distributed Key Generation & Storage & Management protocol
-* [dkg in kyber (DEDIS)](https://github.com/dedis/kyber/tree/master/share/dkg): EPFL's pedersen & rabin DKG implementations in golang
 * [aggregatable-dkg (Kobi Gurkan)](https://github.com/kobigurk/aggregatable-dkg): Aggregatable DKG and VUF
 * [EthDKG (Philipp Schindler)](https://github.com/PhilippSchindler/EthDKG): An Ethereum-based Distributed Key Generation Protocol in python
 * [dkg-on-evm (Orbs Network)](https://github.com/orbs-network/dkg-on-evm): DKG for BLS threshold signature scheme on the EVM using solidity
-* [Tip (Mixin)](https://github.com/MixinNetwork/tip): Throttled Identity Protocol
+* [gennaro-dkg](https://github.com/mikelodder7/gennaro-dkg) LetProtocol's implementation of Gennaro's distributed key generation
+* [vsss-rs](https://github.com/mikelodder7/vsss-rs) Verifiable secret sharing crate that implements Feldman, Pedersen and Shamir secret sharing
 
 ## TSS list
 * [multi-party-ecdsa (ZenGo X)](https://github.com/ZenGo-X/multi-party-ecdsa): Rust implementation of {t,n}-threshold ECDSA 
 * [multi-party-bls (ZenGo X)](https://github.com/ZenGo-X/multi-party-bls): Threshold BLS signatures in Rust
-* [kryptology (Coinbase)](https://github.com/coinbase/kryptology): Coinbase's advanced cryptography library (in Go), including Threshold ECDSA and Distributed key generation 
-* [libBLS (SKALE Network)](https://github.com/skalenetwork/libBLS): skalenetwork's BLS signatures, threshold encryption, distributed key generation library in modern C++
 * [celo-threshold-bls-rs (Celo)](https://github.com/celo-org/celo-threshold-bls-rs): celo's Threshold BLS Signatures and DKG in Rust
 * [NuBLS (NuCypher)](https://github.com/nucypher/NuBLS): Rust implementation of BLS-based threshold protocols such as threshold encryption and threshold proxy encryption
-* [bls-signatures (Chia-Network)](https://github.com/Chia-Network/bls-signatures): BLS signatures with aggregation in C++, using the relic toolkit BLS12-381
-* drand ([[1]](https://drand.love/docs/cryptography/), [[2]](https://github.com/drand/drand)): Distributed randomness beacon, written in Go, based on threshold BLS
-* [tss-lib (Binance)](https://github.com/binance-chain/tss-lib): Go code for Multiparty ECDSA and EdDSA
-* [blockchain-crypto-mpc (Unbound Tech)](https://github.com/unbound-tech/blockchain-crypto-mpc): 2-party ECDSA and EdDSA in c++
-* [threshold-ecdsa (Cardinals)](https://gitlab.com/cardinals1/threshold-ecdsa): Cardinals' Threshold ECDSA
-* [consensus-go (Aleph Zero)](https://gitlab.com/alephledger/consensus-go): [Aleph consensus](https://arxiv.org/pdf/1908.05156.pdf) using threshold BLS signature for randomness 
-* [threshold-ed25519 (Polychain)](https://gitlab.com/polychainlabs/threshold-ed25519): polychainlabs' Threshold Ed25519 in golang
-* [tendermint-validator (Polychain)](https://gitlab.com/polychainlabs/tendermint-validator): A multi-party-computation signing service for Tendermint nodes using threshold Ed25519 signatures
-* [dss in kyber (DEDIS)](https://github.com/dedis/kyber/tree/master/sign/dss): EPFL's implementation of ["Provably Secure Distributed Schnorr Signatures and a (t, n) Threshold Scheme for Implicit Certificates](https://dl.acm.org/citation.cfm?id=678297)
-* [tss (THORChain)](https://gitlab.com/thorchain/tss): TSS Repositories for THORChain
-* [protect (Jason Kresch)](https://github.com/jasonkresch/protect): A Platform for Robust Threshold Cryptography based on Asynchronous Publicly Verifiable Secret Sharing with Tunable Security
 * [threshold-signatures (ING Bank)](https://github.com/ing-bank/threshold-signatures): Threshold Signature Scheme for ECDSA (Rust)
 * [frost-dalek (Isis Lovecruft)](https://github.com/isislovecruft/frost-dalek) A Rust implementation of FROST: Flexible Round-Optimised Schnorr Threshold signatures using the Ristretto group
 * [threshold_crypto (PoA network)](https://github.com/poanetwork/threshold_crypto): A Rust pairing-based threshold cryptosystem for collaborative decryption and signatures used in HoneybadgerBFT implementation
-* [frost-ed25519 (Taurus)](https://github.com/taurusgroup/frost-ed25519): A Go implementation of FROST threshold signatures for Ed25519
-* [multi-party-sig (Taurus)](https://github.com/taurusgroup/multi-party-sig): A Go implementation of threshold signing for ECDSA (CMP protocol), Schnorr/Taproot (FROST protocol) and DKLS
-* [tss-lib (SwingBy Protocol)](https://github.com/SwingbyProtocol/tss-lib): A Go implementation of [GG20](https://eprint.iacr.org/2020/540) threshold ECDSA
 * [tofn (Axelar Network)](https://github.com/axelarnetwork/tofn) : A threshold cryptography library in Rust, implementing GG20
 * [tss-wasm](https://github.com/0xEigenLabs/tss-wasm): A hardware friendly [multi-party-ecdsa (ZenGo X)](https://github.com/ZenGo-X/multi-party-ecdsa), only implementing GG18.
 * [Open TSS](https://github.com/LatticeX-Foundation/opentss): A Rust implementation of multi-party {t,n}-threshold signature scheme (TSS).
 * [mpecdsa (Jack Doerner)](https://gitlab.com/neucrypt/mpecdsa) : 2-of-n and t-of-n threshold ECDSA implementations (Rust)
+* [OpenTSS](https://github.com/LatticeX-Foundation/opentss) Rust implementation of {t,n}-threshold ECDSA using DMZ+21 protocol
+* [DKLs18/19 PoC implementation](https://gitlab.com/neucrypt/mpecdsa) Doerner, Kondi, Lee and Shelat own implementation and proof of concept of their DKLs18 and DKLs19 scheme
+* [silent-shard-dkls23-II](https://github.com/silence-laboratories/silent-shard-dkls23-ll) A Rust library for Multi-PArty-TSS ECDSA based on DKLS23
+* [dkls23](https://github.com/silence-laboratories/dkls23) Rust implementation of DKLs23 by Silence Laboratories. Includes DKG
+* [multi-party-schnorr](https://github.com/silence-laboratories/multi-party-schnorr) A high-performance threshold EdDSA/Schnorr signature library based on Lindell's algorithm
 
 ## DKR list
 * [Fouque-Stern DKR (ZenGo)](https://github.com/ZenGo-X/fs-dkr)
