@@ -28,6 +28,7 @@ A curated list of distributed key generation and threshold signatures implementa
 * [multi-party-schnorr](https://github.com/silence-laboratories/multi-party-schnorr): A high-performance threshold EdDSA/Schnorr signature library based on Lindell's algorithm
 * [Threshold ECDSA based on CGGMP21](https://github.com/LFDT-Lockness/cggmp21): Rust implementation of CGGMP21 Threshold ECDSA algorithm used by DFNS
 * [lit-frost](https://github.com/LIT-Protocol/lit-frost): Implementation of FROST signing protocol (EdDSA) by Lit Protocol
+* [synedrion](https://github.com/entropyxyz/synedrion): A threshold signing library based on the CGGMP'24 scheme.
 
 ## DKR list
 * [Fouque-Stern DKR (ZenGo)](https://github.com/ZenGo-X/fs-dkr)
