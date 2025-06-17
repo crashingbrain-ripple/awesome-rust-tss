@@ -21,11 +21,13 @@ A curated list of distributed key generation and threshold signatures implementa
 * [tss-wasm](https://github.com/0xEigenLabs/tss-wasm): A hardware friendly [multi-party-ecdsa (ZenGo X)](https://github.com/ZenGo-X/multi-party-ecdsa), only implementing GG18.
 * [Open TSS](https://github.com/LatticeX-Foundation/opentss): A Rust implementation of multi-party {t,n}-threshold signature scheme (TSS).
 * [mpecdsa (Jack Doerner)](https://gitlab.com/neucrypt/mpecdsa) : 2-of-n and t-of-n threshold ECDSA implementations (Rust)
-* [OpenTSS](https://github.com/LatticeX-Foundation/opentss) Rust implementation of {t,n}-threshold ECDSA using DMZ+21 protocol
-* [DKLs18/19 PoC implementation](https://gitlab.com/neucrypt/mpecdsa) Doerner, Kondi, Lee and Shelat own implementation and proof of concept of their DKLs18 and DKLs19 scheme
-* [silent-shard-dkls23-II](https://github.com/silence-laboratories/silent-shard-dkls23-ll) A Rust library for Multi-PArty-TSS ECDSA based on DKLS23
-* [dkls23](https://github.com/silence-laboratories/dkls23) Rust implementation of DKLs23 by Silence Laboratories. Includes DKG
-* [multi-party-schnorr](https://github.com/silence-laboratories/multi-party-schnorr) A high-performance threshold EdDSA/Schnorr signature library based on Lindell's algorithm
+* [OpenTSS](https://github.com/LatticeX-Foundation/opentss): Rust implementation of {t,n}-threshold ECDSA using DMZ+21 protocol
+* [DKLs18/19 PoC implementation](https://gitlab.com/neucrypt/mpecdsa): Doerner, Kondi, Lee and Shelat own implementation and proof of concept of their DKLs18 and DKLs19 scheme
+* [silent-shard-dkls23-II](https://github.com/silence-laboratories/silent-shard-dkls23-ll): A Rust library for Multi-PArty-TSS ECDSA based on DKLS23
+* [dkls23](https://github.com/silence-laboratories/dkls23): Rust implementation of DKLs23 by Silence Laboratories. Includes DKG
+* [multi-party-schnorr](https://github.com/silence-laboratories/multi-party-schnorr): A high-performance threshold EdDSA/Schnorr signature library based on Lindell's algorithm
+* [Threshold ECDSA based on CGGMP21](https://github.com/LFDT-Lockness/cggmp21): Rust implementation of CGGMP21 Threshold ECDSA algorithm used by DFNS
+* [lit-frost](https://github.com/LIT-Protocol/lit-frost): Implementation of FROST signing protocol (EdDSA) by Lit Protocol
 
 ## DKR list
 * [Fouque-Stern DKR (ZenGo)](https://github.com/ZenGo-X/fs-dkr)
